@@ -6,7 +6,7 @@ import Cart from "./cart";
 function Navbar() {
   return (
     <div className="navbar">
-      <img src={CompanyLogo} className="logo"></img>
+      <img alt="logo" src={CompanyLogo} className="logo"></img>
       <SearchBar />
       <Cart className="cart" />
     </div>

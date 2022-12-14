@@ -11,16 +11,16 @@ function TopHeader() {
         <span>Toll Free (+91) 7701987693, 8920234339 </span>
       </div>
       <div className="contact-us_top__header">
-        <img className="social-icons" src={WhatsAppIcon}></img>
-        <img className="social-icons" src={FaceBookIcon}></img>
-        <img className="social-icons" src={LinkedinIcon}></img>
-        <img className="social-icons" src={InstagramIcon}></img>
+        <img className="social-icons" alt="icon" src={WhatsAppIcon}></img>
+        <img className="social-icons" alt="icon" src={FaceBookIcon}></img>
+        <img className="social-icons" alt="icon" src={LinkedinIcon}></img>
+        <img className="social-icons" alt="icon" src={InstagramIcon}></img>
       </div>
       <div className="user-login_area">
         <span className="material-icons-outlined">account_circle</span>
         <span className="user-area-btns">
-          <a href="#">Login</a>
-          <a href="#">Register</a>
+          <a href="http://gokulwatertechnologies.in/">Login</a>
+          <a href="http://gokulwatertechnologies.in/">Register</a>
         </span>
       </div>
     </div>
