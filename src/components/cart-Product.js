@@ -4,7 +4,7 @@ import ProductImg from "../assets/product-img/product-sample.jpg";
 function CartProduct() {
   return (
     <div className="product">
-      <img className="product-img" src={ProductImg}></img>
+      <img alt="product" className="product-img" src={ProductImg}></img>
       <div className="product-title">
         <div>Apple Watch</div>
         <div>Mindnight Almunium Case</div>
