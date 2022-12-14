@@ -1,0 +1,31 @@
+.top-Header {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+.toll-free,
+.contact-us_top__header,
+.user-login_area {
+  display: flex;
+  padding: 0.5rem;
+  border: 1px solid gray;
+  align-items: center;
+  justify-content: center;
+  gap: 0.8rem;
+}
+.contact-us_top__header {
+  gap: 1rem;
+}
+.social-icons {
+  border: 5px solid gainsboro;
+  border-radius: 100%;
+  cursor: pointer;
+  height: 30px;
+}
+.user-area-btns {
+  display: flex;
+  gap: 1rem;
+}
+.user-area-btns a:first-child {
+  border-inline-end: 2px solid gray;
+  padding-inline-end: 0.5rem;
+}

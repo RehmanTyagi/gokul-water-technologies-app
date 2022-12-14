@@ -1,0 +1,9 @@
+.logo {
+  height: 100px;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 3rem;
+}

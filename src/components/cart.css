@@ -1,0 +1,14 @@
+.cart-icon {
+  font-size: 2rem;
+  padding: 0.5rem;
+  background-color: #219ebc;
+  color: white;
+  border-radius: 100%;
+  cursor: pointer;
+  position: relative;
+}
+.cart-basket {
+  position: absolute;
+  top: 150px;
+  right: 100px;
+}

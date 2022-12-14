@@ -1,0 +1,33 @@
+.search-bar {
+  --btn-color: #219ebc;
+  --border-color: #3a0ca3;
+  --horizontal-line-color: #e5e5e5;
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  align-items: center;
+  border: 1px solid var(--horizontal-line-color);
+}
+
+.search-bar input {
+  padding: 0.8rem;
+  font-size: 1.1rem;
+  width: 20rem;
+  outline: none;
+  border: none;
+  border-inline-start: 2px solid var(--horizontal-line-color);
+}
+.search-bar span,
+.search-bar button {
+  padding: 0.5rem;
+  cursor: pointer;
+}
+
+.search-bar button {
+  align-self: stretch;
+  background-color: var(--btn-color);
+  color: var(--horizontal-line-color);
+  font-size: 1.1rem;
+  padding: 0.5rem 1rem;
+  border: none;
+  cursor: pointer;
+}

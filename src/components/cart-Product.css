@@ -1,0 +1,16 @@
+.product {
+  display: grid;
+  background-color: whitesmoke;
+  grid-template-columns: repeat(3, auto);
+  margin: 1rem auto;
+  font-size: 0.8rem;
+  align-items: center;
+  line-height: 1.5rem;
+}
+.product-img {
+  max-height: 3rem;
+}
+.product-title,
+.product-price-table {
+  padding: 1rem;
+}
