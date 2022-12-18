@@ -1,20 +1,20 @@
+import React from "react";
 import "./cart.css";
-import Basket from "./basket";
-import { useState } from "react";
-function Cart() {
-  const [open, setOpen] = useState(false);
-
+import BackDrop from "./backdrop";
+export const Cart = (props) => {
   return (
-    <div>
-      <span
-        onClick={() => setOpen(!open)}
-        className="material-icons-outlined cart-icon"
-      >
-        shopping_cart
-      </span>
-      {open && <Basket className="cart-basket" />}
+    <div className="cart">
+      <BackDrop onCloseLayer={props.closeCart} />
+      <div className="cart-container">
+        <div className="cart-title_container">
+          <span>Cart</span>
+          <span onClick={props.closeCart} className="material-icons-outlined">
+            close
+          </span>
+        </div>
+        <hr />
+        <div className="cart-item_area">Your cart is currently empty.</div>
+      </div>
     </div>
   );
-}
-
-export default Cart;
+};

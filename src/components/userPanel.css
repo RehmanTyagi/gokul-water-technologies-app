@@ -1,0 +1,16 @@
+.user-panel_options {
+  display: flex;
+  background-color: #e9ecef;
+  flex-direction: column;
+}
+
+.user-panel_options a {
+  border: 1px solid white;
+  padding: 0.5rem;
+  text-decoration: none;
+}
+
+.user-panel_options a:hover {
+  background-color: #ff5e5b;
+  color: white;
+}

@@ -1,31 +1,28 @@
-.top-Header {
-  display: grid;
-  grid-template-columns: auto auto auto;
-}
-.toll-free,
-.contact-us_top__header,
-.user-login_area {
+.top-header {
   display: flex;
-  padding: 0.5rem;
-  border: 1px solid gray;
   align-items: center;
-  justify-content: center;
-  gap: 0.8rem;
+  justify-content: space-between;
+  padding: 0.5rem 1rem;
+  font-size: 15px;
+  background-color: #edf2f4;
+}
+
+.toll-free,
+.contact-us_top__header {
+  display: flex;
+  gap: 0.5rem;
 }
 .contact-us_top__header {
+  align-items: center;
   gap: 1rem;
 }
-.social-icons {
-  border: 5px solid gainsboro;
-  border-radius: 100%;
-  cursor: pointer;
-  height: 30px;
+.contact-us_top__header div > img {
+  height: 15px;
 }
-.user-area-btns {
+.contact-us_top__header div {
   display: flex;
-  gap: 1rem;
-}
-.user-area-btns a:first-child {
-  border-inline-end: 2px solid gray;
-  padding-inline-end: 0.5rem;
+  padding: 0.7rem;
+  border-radius: 100%;
+  background-color: #fff;
+  cursor: pointer;
 }

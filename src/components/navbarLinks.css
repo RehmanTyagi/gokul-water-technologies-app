@@ -1,0 +1,36 @@
+.links-container {
+  display: flex;
+  list-style: none;
+  gap: 2rem;
+}
+
+.links-container li a {
+  text-decoration: none;
+  color: #343a40;
+  font-weight: 700;
+}
+.links-container li a:hover {
+  color: lightgray;
+}
+.links-container li {
+  position: relative;
+}
+
+.links-container li:hover::after {
+  content: "";
+  bottom: -5px;
+  left: 50%;
+  transform: translateX(-50%);
+  position: absolute;
+  border-bottom: 3px solid #00b4d8;
+  animation: hoverLine 0.5s forwards;
+}
+
+@keyframes hoverLine {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 100%;
+  }
+}

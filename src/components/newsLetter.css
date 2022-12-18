@@ -1,0 +1,21 @@
+.newsletter {
+  background-color: red;
+  position: fixed;
+  display: flex;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+  padding: 1rem;
+}
+
+.newsletter img {
+  height: 15rem;
+}
+
+.newsletter-container {
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 1001;
+}

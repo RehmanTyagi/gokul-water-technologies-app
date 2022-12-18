@@ -1,0 +1,36 @@
+.user-area {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.user-area span {
+  background-color: #e9ecef;
+  padding: 0.8rem;
+  cursor: pointer;
+  border-radius: 1px;
+}
+
+.user-area span:hover {
+  transition: 100ms ease-in-out;
+  background-color: #ff5e5b;
+  color: #fff;
+}
+.user-panel {
+  position: absolute;
+  top: 4rem;
+  left: 50%;
+  width: 100%;
+  transform: translateX(-50%);
+  animation: userPanelOpacity 100ms ease-in-out forwards;
+  transform: translateX(100%);
+}
+
+@keyframes userPanelOpacity {
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+.user-area {
+  position: relative;
+}

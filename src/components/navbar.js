@@ -1,14 +1,13 @@
 import "./navbar.css";
 import CompanyLogo from "../assets/logo/gokul-logo.jpg";
-import SearchBar from "./searchBar";
-import Cart from "./cart";
-
-function Navbar() {
+import UserArea from "./user-area";
+import NavbarLinks from "./navbarLinks";
+function Navbar(props) {
   return (
     <div className="navbar">
       <img alt="logo" src={CompanyLogo} className="logo"></img>
-      <SearchBar />
-      <Cart className="cart" />
+      <NavbarLinks />
+      <UserArea />
     </div>
   );
 }
