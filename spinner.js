@@ -1,4 +1,4 @@
-import BackDrop from "./backdrop";
+import BackDrop from "./src/components/backdrop";
 import "./spinner.css";
 const Spinner = () => {
   return (
