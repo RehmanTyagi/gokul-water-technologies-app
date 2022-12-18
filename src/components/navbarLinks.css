@@ -22,7 +22,7 @@
   left: 50%;
   transform: translateX(-50%);
   position: absolute;
-  border-bottom: 3px solid #00b4d8;
+  border-bottom: 3px solid var(--btn-color);
   animation: hoverLine 0.5s forwards;
 }
 

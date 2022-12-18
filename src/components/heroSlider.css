@@ -1,0 +1,40 @@
+.poster-wrapper {
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #023047;
+  letter-spacing: 3px;
+  color: white;
+  overflow: hidden;
+}
+.poster-wrapper img {
+  animation: image 1s ease-in-out;
+}
+.poster-wrapper .hero-poster_text__content {
+  width: 500px;
+  display: grid;
+  gap: 2rem;
+  animation: text 1s ease-in-out;
+}
+
+@keyframes text {
+  from {
+    transform: translateX(120%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+@keyframes image {
+  from {
+    transform: translateY(120%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}

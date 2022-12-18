@@ -1,9 +1,19 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600&display=swap");
 *,
 *::after,
 *::before {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
   font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+}
+
+:root {
+  --btn-color: #00b4d8;
+}
+
+body::-webkit-scrollbar {
+  width: 12px;
+}
+body::-webkit-scrollbar-thumb {
+  background-color: var(--btn-color);
 }

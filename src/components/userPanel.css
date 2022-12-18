@@ -11,6 +11,6 @@
 }
 
 .user-panel_options a:hover {
-  background-color: #ff5e5b;
+  background-color: var(--btn-color);
   color: white;
 }
