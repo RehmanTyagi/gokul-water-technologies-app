@@ -1,6 +1,5 @@
 import "./heroSlider.css";
 import Poster from "../assets/imgs/etp-plant.png";
-import WaterDropAnimation from "./waterDrop";
 const HeroSlider = () => {
   return (
     <div className="poster-wrapper">
