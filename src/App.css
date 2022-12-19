@@ -11,6 +11,11 @@
   --btn-color: #00b4d8;
 }
 
+body {
+  max-width: 1200px;
+  margin: auto;
+}
+
 body::-webkit-scrollbar {
   width: 12px;
 }

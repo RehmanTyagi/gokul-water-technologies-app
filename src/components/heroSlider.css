@@ -1,5 +1,5 @@
 .poster-wrapper {
-  padding: 2rem;
+  padding: 4rem 2rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -7,15 +7,24 @@
   letter-spacing: 3px;
   color: white;
   overflow: hidden;
+  height: 80vh;
 }
 .poster-wrapper img {
+  height: 100%;
   animation: image 1s ease-in-out;
+}
+.poster-wrapper img:nth-child(2) {
+  position: relative;
+  top: 10rem;
 }
 .poster-wrapper .hero-poster_text__content {
   width: 500px;
   display: grid;
   gap: 2rem;
   animation: text 1s ease-in-out;
+}
+.hero-poster_text__content h1 {
+  font-size: 2.5rem;
 }
 
 @keyframes text {
@@ -37,4 +46,26 @@
     transform: translateY(0);
     opacity: 1;
   }
+}
+.user-action_btns {
+  display: flex;
+  gap: 1.5rem;
+}
+.user-action_btns .get-quote-btn {
+  background-color: var(--btn-color);
+  padding: 0.8rem 1rem;
+  cursor: pointer;
+  border: none;
+  position: relative;
+  font-weight: 600;
+  border-radius: 10px;
+}
+
+.get-quote-btn:first-child {
+  background-color: green;
+  color: white;
+}
+
+.get-quote-btn:last-child {
+  background-color: #ffe6a7;
 }
