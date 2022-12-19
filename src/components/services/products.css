@@ -1,0 +1,35 @@
+.product-wrapper {
+  background-color: #e9ecef;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  width: 250px;
+  text-align: center;
+  padding: 1rem;
+  border-radius: 10px;
+  border-style: dashed;
+  border: 2px solid lightgray;
+  transition: 0.5s ease-in-out;
+  cursor: pointer;
+}
+
+.product-wrapper img {
+  height: 100%;
+  width: 100%;
+  transition: 200ms ease-in-out;
+}
+
+.product-wrapper img:hover {
+  transform: scale(0.8);
+}
+
+.product-wrapper h2 {
+  margin: 0.5rem;
+}
+
+.product-wrapper button {
+  background-color: var(--btn-color);
+  color: white;
+  padding: 0.5rem;
+  border: none;
+  cursor: pointer;
+}
