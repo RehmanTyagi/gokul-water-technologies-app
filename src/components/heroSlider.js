@@ -7,7 +7,6 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/scrollbar";
-import PosterTwo from "../assets/imgs/3d-poster.png";
 import Poster from "../assets/imgs/3d-poster-two.png";
 import PosterThree from "../assets/imgs/3d-poster-three.png";
 const HeroSlider = () => {
