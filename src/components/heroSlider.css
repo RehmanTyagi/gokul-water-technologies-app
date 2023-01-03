@@ -11,7 +11,7 @@
 }
 .poster-wrapper img {
   height: 100%;
-  animation: image 1s ease-in-out;
+  animation: image 1.5s ease-in-out;
 }
 .poster-wrapper img:nth-child(2) {
   position: relative;
@@ -24,7 +24,8 @@
   animation: text 1s ease-in-out;
 }
 .hero-poster_text__content h1 {
-  font-size: 2.5rem;
+  font-size: 4.5rem;
+  line-height: 5.5rem;
 }
 
 @keyframes text {
@@ -68,4 +69,5 @@
 
 .get-quote-btn:last-child {
   background-color: #ffe6a7;
+  color: black;
 }
