@@ -1,0 +1,26 @@
+.message-container {
+  max-width: 50rem;
+  padding: 1rem;
+}
+body {
+  background-color: #264653;
+  display: grid;
+  color: white;
+  place-items: center;
+  height: 100vh;
+}
+
+.message-container span {
+  font-size: 8rem;
+}
+
+.message-container a {
+  color: #70e000;
+  text-decoration: underline;
+}
+
+@media (max-width: 425px) {
+  .message-container {
+    text-align: center;
+  }
+}
